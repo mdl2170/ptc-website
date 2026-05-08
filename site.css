@@ -654,7 +654,7 @@
   }
 
   /* INITIATIVES — interactive list + preview */
-  .init-section { padding: 0 40px 120px; background: #ffffff; }
+  .init-section { padding: 0 40px 120px; }
   .init-stage {
     max-width: 1280px; margin: 0 auto;
     display: grid;

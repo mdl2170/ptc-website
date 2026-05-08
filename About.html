@@ -64,11 +64,12 @@
     <div class="prose">
       <p>Growing up in the 1960s in Chicago and experiencing a tumultuous home life, school desegregation, a violent anti-war movement, and a non-violent civil rights movement first hand, instilled in Peter a deep sense of concern over the state of our society and our world.</p>
 
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Civil_Rights_March_on_Washington%2C_D.C._%28Leaders_marching_from_the_Washington_Monument_to_the_Lincoln_Memorial%29_-_NARA_-_542010.jpg" alt="Civil Rights March on Washington" style="margin: 32px 0; border-radius: 4px; width: 100%; height: auto;" />
+      <figure style="margin: 32px 0; display: block;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Civil_Rights_March_on_Washington%2C_D.C._%28Leaders_marching_from_the_Washington_Monument_to_the_Lincoln_Memorial%29_-_NARA_-_542010.jpg" alt="Civil Rights March on Washington, D.C." style="width: 100%; display: block;" />
+        <figcaption style="font-family: 'Lora', serif; font-style: italic; font-size: 13px; color: var(--ink-mute); margin-top: 10px;">Civil Rights March on Washington, D.C. — NARA</figcaption>
+      </figure>
 
       <p>After working with violent, drug-addicted youth in New York City in the 1980s, he returned to school to learn how to bring the power of ideas and science to bear on addressing some of our most difficult, recalcitrant societal ills.</p>
-
-
 
       <h3>Three tracks of work — over <em>thirty years.</em></h3>
 
@@ -228,7 +229,7 @@
         <li>Generations for Peace</li>
         <li>Unite</li>
       </ul>
-      <p class="advisory-note">Inquiries about advisory engagements, board service, or research collaboration are welcome through the office.</p>
+
     </div>
   </div>
 </section>
@@ -657,6 +658,78 @@
     if (e.key === 'Escape' && modal.classList.contains('open')) close();
   });
 })();
+</script>
+
+
+<style>
+  /* CV row — staggered fade-up */
+  .cv-row {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.55s ease, transform 0.55s ease;
+  }
+  .cv-row.cv-revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Award row — left-to-right wipe via overlay */
+  .award-row {
+    position: relative;
+  }
+  .award-row::after {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: rgb(20, 24, 31);
+    transform-origin: right center;
+    transform: scaleX(1);
+    transition: transform 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+    pointer-events: none;
+    z-index: 2;
+  }
+  .award-row.award-revealed::after {
+    transform: scaleX(0);
+  }
+</style>
+
+<script>
+  // Roles & Appointments — staggered fade-up per row
+  // Honors — left-to-right wipe per row
+  // Use both IntersectionObserver and scroll fallback for maximum compatibility.
+  (function () {
+    function setupReveal(selector, revealClass, stagger) {
+      const rows = Array.from(document.querySelectorAll(selector));
+      if (!rows.length) return;
+      const revealedSet = new Set();
+
+      function revealIfInView() {
+        const vh = window.innerHeight || document.documentElement.clientHeight;
+        rows.forEach((row, idx) => {
+          if (revealedSet.has(row)) return;
+          const rect = row.getBoundingClientRect();
+          // Trigger when the row's top edge has crossed ~85% of viewport
+          // (also reveals any rows that have already scrolled past, so fast scrolls don't miss them)
+          if (rect.top < vh * 0.9) {
+            const groupIdx = rows.filter(r => revealedSet.has(r)).length;
+            revealedSet.add(row);
+            setTimeout(() => row.classList.add(revealClass), groupIdx * stagger);
+          }
+        });
+      }
+
+      window.addEventListener('scroll', revealIfInView, { passive: true });
+      window.addEventListener('resize', revealIfInView);
+      // Initial check (in case the section is already in view at load)
+      revealIfInView();
+      // And once more after layout settles
+      setTimeout(revealIfInView, 150);
+      setTimeout(revealIfInView, 600);
+    }
+
+    setupReveal('.cv-section .cv-row', 'cv-revealed', 100);
+    setupReveal('.awards-section .award-row', 'award-revealed', 80);
+  })();
 </script>
 
 </body>

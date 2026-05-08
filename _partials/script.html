@@ -1,0 +1,119 @@
+<script>
+  // Header gets background once user scrolls past hero
+  const header = document.getElementById('siteHeader');
+  const onScroll = () => {
+    if (window.scrollY > 60) header.classList.add('scrolled');
+    else header.classList.remove('scrolled');
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  // Subtle reveal
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.opacity = '1';
+        e.target.style.transform = 'translateY(0)';
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.work-card, .init-stage, .media-card, .book-cover, .book-info, .fs-content, .at-content').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+    io.observe(el);
+  });
+
+  // Interactive Projects & Initiatives list
+  (function() {
+    const list = document.getElementById('initList');
+    if (!list) return;
+    const rows = Array.from(list.querySelectorAll('.init-row'));
+    const stage = document.getElementById('initStage');
+    const preview = document.getElementById('initPreview');
+
+    // Pre-create stage layers for crossfade
+    const layers = rows.map((row, i) => {
+      const el = document.createElement('div');
+      el.className = 'stage';
+      el.style.backgroundImage = `url('${row.dataset.img}')`;
+      if (row.dataset.fit === 'contain') el.dataset.fit = 'contain';
+      if (i === 0) el.classList.add('active');
+      preview.insertBefore(el, stage);
+      return el;
+    });
+    stage.remove();
+
+    let active = 0;
+    let timer = null;
+    let userInteracted = false;
+
+    function setActive(idx, fromUser) {
+      if (idx === active) return;
+      rows[active].classList.remove('active');
+      layers[active].classList.remove('active');
+      active = idx;
+      rows[active].classList.add('active');
+      layers[active].classList.add('active');
+      if (fromUser) {
+        userInteracted = true;
+        stopAuto();
+      } else {
+        restartProgress();
+      }
+    }
+
+    function restartProgress() {
+      preview.classList.remove('advancing');
+      void preview.offsetWidth;
+      preview.classList.add('advancing');
+    }
+
+    function startAuto() {
+      stopAuto();
+      restartProgress();
+      timer = setInterval(() => {
+        if (userInteracted) return;
+        setActive((active + 1) % rows.length, false);
+      }, 5500);
+    }
+    function stopAuto() {
+      if (timer) { clearInterval(timer); timer = null; }
+      preview.classList.remove('advancing');
+    }
+
+    rows.forEach((row, i) => {
+      row.addEventListener('click', (e) => {
+        if (e.target.closest('a')) return;
+        setActive(i, true);
+      });
+      row.addEventListener('mouseenter', () => {
+        if (!userInteracted) setActive(i, false);
+      });
+    });
+
+    // Start auto-advance only when section enters viewport
+    const startObs = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !userInteracted && !timer) {
+          startAuto();
+        } else if (!entry.isIntersecting) {
+          stopAuto();
+        }
+      });
+    }, { threshold: 0.3 });
+    startObs.observe(preview);
+  })();
+  // Contact form — graceful confirmation (no backend wired)
+  (function() {
+    const form = document.getElementById('contactForm');
+    const thanks = document.getElementById('formThanks');
+    if (!form) return;
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      form.style.display = 'none';
+      thanks.classList.add('visible');
+    });
+  })();
+</script>

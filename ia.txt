@@ -1,0 +1,396 @@
+HOMESection
+----CELL----
+On-page copy
+----CELL----
+
+========ROW========
+Header (global)
+----CELL----
+Site title:PETER T. COLEMANNavigation:Home · About · Books · Research · Writing · Speaking · MediaUtility:Contact [button → Footer]
+----CELL----
+
+========ROW========
+Hero (positioning)
+----CELL----
+Headline (H1):CONSTRUCTIVE CONFLICT. SUSTAINABLE PEACE.Subheadline:Peter T. Coleman is a professor, author, and social entrepreneur for conflict engagement and peace — bridging science and practice to address our most difficult conflicts.CTA buttons:Explore My Work [button]Book a Keynote [button]Learn more about our Conflict Intelligence Lab Executive Education offerings
+----CELL----
+
+========ROW========
+Affiliations (logo bar)
+----CELL----
+Logos (horizontal strip):Columbia University · Teachers College · MD-ICCCR · AC4 
+----CELL----
+
+========ROW========
+Signature work (4-card grid)
+----CELL----
+Heading (H2):THE WORKThree interconnected areas of research and practiceCard 1 — Intractable ConflictWhy some conflicts resist every attempt at resolution, and what complexity science reveals about breaking free.Learn more [button → Research]Card 2 — Toxic PolarizationEvidence-based strategies for how deeply divided societies can and do find the way out.Learn more [button → Research]Card 3 — Conflict IntelligenceAn adaptive, context-sensitive framework for navigating disagreement at every level.Learn more  [button → Research]Card 4 — Sustainable PeaceWhat the world’s most peaceful societies can teach us about building lasting peace.Learn more  [button → Research]
+----CELL----
+
+========ROW========
+Media credibility (logo strip)
+----CELL----
+Label:Featured inLogos:The New York Times · PBS NewsHour · The Guardian · BBC · Hidden Brain · This American Life · Nature · Science · Harvard Business Review · Time · Wired · Forbes
+----CELL----
+
+========ROW========
+Featured book
+----CELL----
+Heading (H2):LATEST BOOKBook title:The Way Out: How to Overcome Toxic PolarizationDescription:A groundbreaking, research-based guide that draws on over 25 years of research to show how we can escape the pull of toxic polarization.Publisher:Columbia University Press, 2nd edition August 11, 2026.CTA buttons:Buy the Book [button]Visit the Book Site [button → thewayoutofpolarization.com]
+----CELL----
+
+========ROW========
+Featured Projects &amp; Initiatives
+----CELL----
+Polarization Detox Challenge6 Steps for Mending a Politically Strained RelationshipConflict Intelligence Lab Executive EducationRapportBAIT - The Anti-Toxic Media App
+----CELL----
+
+========ROW========
+Recent writing &amp; media
+----CELL----
+Heading (H2):IN THE MEDIACard grid featuring 3 most recent items, pulled from media inventory.Each card shows:Thumbnail imageTitleOutlet nameDateRead / Listen / Watch [button]View All [button → Media page]
+----CELL----
+
+========ROW========
+Footer (global)
+----CELL----
+Speaking engagements, consultation, or master classes:Contact The Morton Deutsch International Center for Cooperation and Conflict(212) 678-3402icccr@tc.columbia.eduSocial links:LinkedIn · X  · Instagram · Medium · Google Scholar © 2026 Peter T. Coleman
+----CELL----
+
+========ROW========
+ABOUTSection
+----CELL----
+On-page copy
+----CELL----
+
+========ROW========
+Header (global)
+----CELL----
+[same as Home]
+----CELL----
+
+========ROW========
+Hero (positioning)
+----CELL----
+Headline (H1):PETER T. COLEMANDesign note: Large professional portrait photo. Warm, approachable — not a stiff headshot.
+----CELL----
+
+========ROW========
+Narrative bio
+----CELL----
+Paragraph 1 — Mission statement:I am a professor, a social entrepreneur for peace and justice — and I pride myself on breaking things. By departing from convention and innovating in how I theorize, study, educate, communicate, practice and activate, I aspire to have a profound and lasting impact on the promotion of just peace throughout our world.Paragraph 2 — Origin story:Building on the legacies of brilliant, practical scientists like Kurt Lewin and Morton Deutsch, I came to believe in the extraordinary power of big ideas to better our world, and in the critical roles science and technology can play in refining and advancing those ideas. Growing up in the 1960s in Chicago and experiencing a tumultuous homelife, school desegregation, a violent anti-war movement, and a non-violent civil rights movement first hand, instilled in me a deep sense of concern over the state of our society and our world. After working with violent, drug-addicted youth in New York City in the 1980s, I returned to school to learn how to bring the power of ideas and science to bear on addressing some of our most difficult, recalcitrant societal ills.Paragraph 3 — Three tracks of work:For over 30 years, I have studied, educated, practiced and innovated around matters related to peace, conflict and justice through three tracks of work:Understanding and addressing more complex, entrenched, intractable conflict systemsDeveloping and applying a new scientific paradigm combining models from peace and conflict studies, social psychology and complexity scienceUnderstanding and promoting more sustainably peaceful societiesDesign note: Full-width text layout. Pull-quote callout for “I came to believe in the extraordinary power of big ideas to better our world.” 
+----CELL----
+
+========ROW========
+Academic appointments &amp; leadership
+----CELL----
+Peter T. Coleman is Professor of Psychology and Education at Columbia University where he has held joint-appointments at Teachers College, The Earth Institute, and The Climate School. He currently serves as:Professor of Psychology and Education, Teachers College, Columbia University (1997–present)Senior Advisor to the President and Provost of Columbia University on Community and Culture (2025–present)Director, The Morton Deutsch International Center for Cooperation and Conflict Resolution (1998–present)Founding Executive Director, The Advanced Consortium on Cooperation, Conflict and Complexity (2008–present)Chief Scientist, Rapport (2019–present)Design note: Clean list or card format with institution logos. 
+----CELL----
+
+========ROW========
+Research interests
+----CELL----
+Heading (H2):Renowned expert on conflict resolution and sustainable peaceHis current research focuses on conflict intelligence as an essential competency for navigating conflict constructively across all levels — from families and workplaces to communities and nations.His work includes projects on:Navigating Power in ConflictAdaptive MediationCross-Cultural Adaptivity and OptimalityNavigating Political PolarizationConflict Intelligence and Systemic WisdomNavigating Contradictions OptimallyConstructive Multicultural Organizational DevelopmentIntractable ConflictSustainable PeaceDesign note: Tags are clickable, linking to relevant Research page.
+----CELL----
+
+========ROW========
+Awards &amp; recognition
+----CELL----
+Layout: Timeline2023 — Elected as Fellow, International Association of Conflict Management2020 — Lifetime Commitment Award, Human Dignity and Humiliation Studies Association2019 — Peace Award of the City of Stadtschlaining, Austria2016 — Outstanding Book Award, IACM — Making Conflict Work2015 — Morton Deutsch Conflict Resolution Award, APA Division 482015 — Marie Curie International Incoming Fellowship, European Union2003 — Ed Cairns Early Career Award, APA Division 48Design note: Vertical timeline with dates. 
+----CELL----
+
+========ROW========
+Other affiliations
+----CELL----
+Founder of the United Nations Mediation Support Unit’s Academic Advisory CouncilFounding board member of the Gbowee Peace Foundation USANew York State certified mediator and experienced consultant
+----CELL----
+
+========ROW========
+Public scholarship &amp; advisory
+----CELL----
+Dr. Coleman serves as a scientific advisor to dozens of nonprofit peacebuilding groups, including Builders, Fix US, Constructive Dialogue Institute, Search for Common Ground USA, Listen First, Braver Angels, Essential Partners, Civic Health Project, Horizons Project, Partners Global, Cascade Institute, One Small Step (StoryCorps), Generations for Peace, and Unite.In 2020, he was asked through his affiliation with Tim Shriver’s Unite to advise the Joe Biden presidential transition team on depolarization in the U.S.Design note: Text paragraph with linked organization names. Optional: small logo grid of key organizations.
+----CELL----
+
+========ROW========
+Books
+----CELL----
+Heading (H2):Books by Peter T. Coleman6-card grid (each card = cover image + title + publisher + year):Conflict Intelligence book (2027)The Way Out: How to Overcome Toxic Polarization — Columbia University Press, 2021Making Conflict Work: Harnessing the Power of Disagreement — Houghton Mifflin Harcourt, 2014The Five Percent: Finding Solutions to Seemingly Impossible Conflicts — PublicAffairs, 2011Handbook of Conflict Resolution: Theory and Practice (3rd ed.) — Jossey-Bass, 2014Attracted to Conflict — Springer, 2013Psychological Components of Sustainable Peace — Springer, 2012Each card: Learn more [button → Book page]
+----CELL----
+
+========ROW========
+Media coverage (logo strip)
+----CELL----
+Label:Featured inLogos:The New York Times · The Guardian · The Chicago Tribune · Hidden Brain · PBS NewsHour · Aspen Ideas · This American Life · Time Magazine · BBC · Nature · Science · Wired · Harvard Business Review · Forbes · Scientific American
+----CELL----
+
+========ROW========
+Blog
+----CELL----
+Heading (H2):BlogExplore articles and essays by Dr. Peter T. ColemanCard grid featuring 3 recent postsView More [button → Writing page]
+----CELL----
+
+========ROW========
+Featured talks &amp; interviews
+----CELL----
+Items (media embed cards with play buttons):Hidden Brain: “US 2.0: Living With Our Differences” — Listen hereChasing Life with Sanjay Gupta: “How to have difficult conversations in a polarized world” — Listen hereTEDx Miami: “Why We’re Stuck” — Watch hereDesign note: 3–4 featured items with play buttons.
+----CELL----
+
+========ROW========
+Contact
+----CELL----
+For professional inquiries, speaking engagements, or institutional collaboration, please see the contact information below.Contact [button → Contact page]
+----CELL----
+
+========ROW========
+Footer (global)
+----CELL----
+[same as Home]
+----CELL----
+
+========ROW========
+BOOKSSection
+----CELL----
+On-page copy
+----CELL----
+
+========ROW========
+Header (global)
+----CELL----
+[same as Home]
+----CELL----
+
+========ROW========
+Hero (positioning)
+----CELL----
+Headline (H1):BOOKSSubheadline:Peter has published a dozen books on conflict, peace, and justice — including bestselling, award-winning guides for scholars, leaders, and the public.
+----CELL----
+
+========ROW========
+Featured book: The Way Out
+----CELL----
+Book title (H2):THE WAY OUT: HOW TO OVERCOME TOXIC POLARIZATIONColumbia University Press, 2021Description:Are you fed up with our current state of toxic political polarization? This book draws on over 25 years of research on intractable conflict to show how deeply divided societies can and do change — and what you can do now.Praise:“A remarkable combination of scientific insight, practical guidance, and grounded hope.” — Adam Grant“Essential reading for understanding — and healing — our fractured nation.” — Daniel Goleman“A must-read for anyone who wants to understand our current predicament.” — Jonathan HaidtCTA buttons:Buy the Book [button]Visit Book Site [button → thewayoutofpolarization.com]Design note: Large cover image. Endorsement quotes in carousel or stacked layout. Multiple purchase links (Columbia UP, IndieBound, Amazon, Audiobook). Same pattern as The Way Out website.
+----CELL----
+
+========ROW========
+Book: Making Conflict Work
+----CELL----
+Book title (H2):MAKING CONFLICT WORK: HARNESSING THE POWER OF DISAGREEMENTHoughton Mifflin Harcourt, 2014 · Winner, Outstanding Book Award (IACM, 2016)Description:A science-based guide to navigating disagreement up and down your organization. Introduces the Conflict Intelligence (CIQ) framework for adapting your approach to conflict based on power dynamics.CTA buttons:Take the CIQ Assessment [button → conflictintelligence.org]Learn more [button → makingconflictwork.com]
+----CELL----
+
+========ROW========
+Book: The Five Percent
+----CELL----
+Book title (H2):THE FIVE PERCENT: FINDING SOLUTIONS TO SEEMINGLY IMPOSSIBLE CONFLICTSPublicAffairs, 2011Description:Why do some conflicts seem completely immune to resolution? Drawing on complexity science and dynamical systems theory, this book reveals what makes the most difficult 5% of conflicts so intractable — and what it takes to shift them.CTA buttons:Watch the TEDx Talk [button → TEDx Miami embed]Learn more [button → fivepercentbook.com]
+----CELL----
+
+========ROW========
+Book: Handbook of Conflict Resolution
+----CELL----
+Book title (H2):THE HANDBOOK OF CONFLICT RESOLUTION: THEORY AND PRACTICE (3RD EDITION)Jossey-Bass, 2014 · Co-edited with Morton Deutsch and Eric MarcusDescription:The definitive reference in the field — bestselling and award-winning across three editions. Translated into Arabic by local peacebuilders in 2015.Learn more [button]Design note: Note the Arabic translation as a story of impact and reach.
+----CELL----
+
+========ROW========
+Other books
+----CELL----
+Heading (H2):MORE BOOKSCompact card grid:Attracted to Conflict: Dynamic Foundations of Destructive Social Relations — Springer, 2013Psychological Components of Sustainable Peace — Springer, 2012Conflict, Justice, and Interdependence: The Legacy of Morton Deutsch — 2011Design note: Smaller cards, less visual prominence. Accessible for completeness.
+----CELL----
+
+========ROW========
+Footer (global)
+----CELL----
+[same as Home]
+----CELL----
+
+========ROW========
+RESEARCHSection
+----CELL----
+On-page copy
+----CELL----
+
+========ROW========
+Header (global)
+----CELL----
+[same as Home]
+----CELL----
+
+========ROW========
+Hero (positioning)
+----CELL----
+Headline (H1):RESEARCH &amp; IDEASSubheadline:For over 30 years, I have studied, educated, practiced and innovated around matters related to peace, conflict and justice through three interconnected tracks of work.
+----CELL----
+
+========ROW========
+Theme 1: Intractable Conflict
+----CELL----
+Heading (H2):INTRACTABLE CONFLICTLead question:Why do some conflicts resist every attempt at resolution — and what can complexity science reveal about how to shift them?Body:This research track explores:Our Difficult Conversations Capture Lab, where we study the conditions for constructive encounters over moral conflictsResearch on framing and motivation in community bridge-building over political and racial differencesApplied work on organizational activism and leveraging multicultural conflict for institutional reformKey outputs:The Five Percent (book)American Psychologist papersStanford Social Innovation ReviewThe Guardian feature on the Difficult Conversations LabExplore publications [button]Design note: Card or expandable section. Representative image from the lab. Pull related media from inventory by topic tag.
+----CELL----
+
+========ROW========
+Theme 2: Dynamical Systems
+----CELL----
+Heading (H2):Conflict Intelligence: A NEW SCIENTIFIC PARADIGM FOR ENGAGING CONFLICT OPTIMALLY Lead statement:Standard approaches to conflict resolution rely on micro, short-term, linear models. This track works to expand the field to include more complex, holistic, dynamical-systems approaches.Research areas:Adaptive negotiation across power differencesAdaptive mediation in extreme situationsAdaptive cross-cultural conflict engagementKey outputs:Making Conflict Work (book)CIQ Assessment (conflictintelligence.org)CIQ AppHBR article on mediation“Rethinking Intractable Conflict” (American Psychologist)Take the CIQ Assessment [button → conflictintelligence.org]Design note: Feature the interactive tools (assessment, app) prominently. Adds the interactivity of Adam Grant’s quizzes with academic depth.
+----CELL----
+
+========ROW========
+Theme 3: Sustainable Peace
+----CELL----
+Heading (H2):SUSTAINABLE PEACELead question:What can the world’s most peaceful societies teach us about building and sustaining peace?Body:This track includes:Comparative studies of “peace systems” vs. “non-peace systems”Ground-truthing field projects in Mauritius and Costa RicaThe If Peace Could Speak initiative — applying machine learning and NLP to study “peace speech” across 20 nations ($1.2M partnership with Toyota Research Institute)Key outputs:Nature articlesustainingpeaceproject.comPeace tech visualizationsAC4 researchExplore the Sustaining Peace Project [button → sustainingpeaceproject.com]Design note: Forward-looking and tech-enabled — design should feel modern.
+----CELL----
+
+========ROW========
+Labs &amp; Centers
+----CELL----
+Heading (H2):LABS &amp; CENTERS3-card layout:Card 1 — MD-ICCCRThe Morton Deutsch International Center for Cooperation and Conflict ResolutionFocused on the science-practice nexus in conflict resolution. Founded 1998 at Teachers College.Visit [button → icccr.tc.columbia.edu]Card 2 — AC4The Advanced Consortium on Cooperation, Conflict and ComplexityTransdisciplinary research on sustainably peaceful societies. Home of the Women, Peace and Security program, co-founded with Nobel Peace Prize laureate Leymah Gbowee.Visit [button → ac4.climate.columbia.edu]
+----CELL----
+
+========ROW========
+Selected publications
+----CELL----
+Heading (H2):SELECTED PUBLICATIONSA curated selection of Peter’s most impactful peer-reviewed work. For a complete list of 100+ papers (8,700+ citations, H-index 46), see the full CV.Organized by theme (expandable accordion or tabbed layout):Intractable Conflict — 5–6 key papers with title, journal, year, linkDynamical Systems — 5–6 key papersSustainable Peace — 5–6 key papersConflict Intelligence — 5–6 key papersDownload Full CV [button → PDF]Design note: Accordion or tab layout for scannability. Google Scholar link for full record.
+----CELL----
+
+========ROW========
+Footer (global)
+----CELL----
+[same as Home]
+----CELL----
+
+========ROW========
+WRITINGSection
+----CELL----
+On-page copy
+----CELL----
+
+========ROW========
+Header (global)
+----CELL----
+[same as Home]
+----CELL----
+
+========ROW========
+Hero (positioning)
+----CELL----
+Headline (H1):WRITINGSubheadline:I strive to avoid the insular jargon of academic language, and to communicate our research findings and their practical implications in an accessible and engaging manner.
+----CELL----
+
+========ROW========
+Featured articles
+----CELL----
+Card grid featuring recent articles pulled from media inventory, filtered by Media Type: Opinion/Editorial.Each card shows:Thumbnail imageTitleOutlet nameDateRead [button]Design note: Blog-style card grid. Inspired by Jonathan Haidt’s blog-forward approach. Thumbnails pulled from inventory Image URL field.
+----CELL----
+
+========ROW========
+Browse by theme
+----CELL----
+Heading (H2):Browse by themeFind what is most relevant to youInteraction: Expand / collapse themesFor anyone navigating polarized relationships — Articles on bridging divides in families, friendships, and communitiesFor organizational and community leaders — Conflict intelligence, adaptive leadership, DEI conflict strategiesFor researchers and practitioners — Dynamical systems, complexity science, peacebuilding methodsFor citizens concerned about democracy — Toxic polarization, authoritarianism, civic dialogueDesign note: Same interaction pattern as The Way Out Media page “Browse by theme” section.
+----CELL----
+
+========ROW========
+Science-Practice Blog
+----CELL----
+Heading (H2):MD-ICCCR SCIENCE-PRACTICE BLOGHundreds of posts bridging research and practice in conflict resolution.Browse the Blog [button → icccr.tc.columbia.edu/blog]
+----CELL----
+
+========ROW========
+Footer (global)
+----CELL----
+[same as Home]
+----CELL----
+
+========ROW========
+SPEAKINGSection
+----CELL----
+On-page copy
+----CELL----
+
+========ROW========
+Header (global)
+----CELL----
+[same as Home]
+----CELL----
+
+========ROW========
+Hero (positioning)
+----CELL----
+Headline (H1):SPEAKING &amp; CONSULTINGSubheadline:Peter has been invited to speak at scores of meetings around the globe — from TEDx and Harvard to the United Nations and corporate boardrooms. Available for keynotes, workshops, masterclasses, and consulting engagements.
+----CELL----
+
+========ROW========
+Topic areas
+----CELL----
+Heading (H2):WHAT PETER SPEAKS ABOUT5-card grid:Overcoming Toxic PolarizationHow deeply divided organizations, communities, and nations can find the way out.Conflict-Intelligent LeadershipNavigating disagreement up and down your organization using the CIQ framework.Making Conflict WorkHarnessing the power of disagreement for innovation and better outcomes.Sustainable PeaceLessons from the world’s most peaceful societies for building lasting stability.Navigating DEI ConflictsLeveraging multicultural tension for institutional reform and justice.Design note: Icon or color-accent cards. Each links to a relevant book or research theme. Descriptions ≤ 150 characters each.
+----CELL----
+
+========ROW========
+Selected engagements
+----CELL----
+Heading (H2):SELECTED ENGAGEMENTSTEDx Miami · Harvard Kennedy School · Harvard Law School · United Nations · NAFSA · International Congress of Psychology (Prague) · Federal Mediation and Conciliation Service · Hebrew University · Correymeela (Belfast) · SIETAR (Tokyo) · Hitotsubashi Business School · ESAP (Bogota) · Obama Scholars Program · Leading Women ExecutivesDesign note: Logo bar preferred, text list fallback. Communicates global reach and institutional prestige.
+----CELL----
+
+========ROW========
+Video highlights
+----CELL----
+Heading (H2):WATCH3–4 video embed cards:TEDx Miami: “Why We’re Stuck: The Attraction of a Polarized America” — WatchHidden Brain: “US 2.0: Living With Our Differences” — ListenChasing Life with Sanjay Gupta: “How to have difficult conversations in a polarized world” — ListenAdditional videos pulled from inventory where Media Type = VideoDesign note: Video embed section with thumbnail grid. Critical for event organizers evaluating Peter.
+----CELL----
+
+========ROW========
+Booking inquiry
+----CELL----
+Heading (H2):BOOK PETERInterested in having Peter speak at your event or consult with your organization? Get in touch.Inquire [button → Contact page or dedicated form]
+----CELL----
+
+========ROW========
+Footer (global)
+----CELL----
+[same as Home]
+----CELL----
+
+========ROW========
+MEDIASection
+----CELL----
+On-page copy
+----CELL----
+
+========ROW========
+Header (global)
+----CELL----
+[same as Home]
+----CELL----
+
+========ROW========
+Hero (positioning)
+----CELL----
+Headline (H1):MEDIASubheadline:Peter’s work has been featured in leading national and international outlets. Journalists, educators, and facilitators are welcome to reference, assign, or discuss these resources in their own contexts.
+----CELL----
+
+========ROW========
+Featured articles
+----CELL----
+Heading (H2):Featured ArticlesDr. Coleman’s articles have appeared in major national and international outlets as well as scholarly journals. These pieces apply research on conflict and polarization to timely social and political challenges.Card grid: 6–9 curated items from inventory, filtered by high-profile outlets.Each card shows:Thumbnail imageTitleOutlet nameDateRead here [button]View all  [button → Full Archive page]Design note: Thumbnails from inventory Image URL field. Manually curated for highest-impact pieces.
+----CELL----
+
+========ROW========
+Talks &amp; interviews
+----CELL----
+Heading (H2):Talks and InterviewsThis section includes recorded lectures, keynote talks, podcasts, and interviews delivered in academic, civic, and public forums.Card grid: 6–9 items filtered from inventory by Media Type = Video/Podcast.Each card shows:Thumbnail imageTitleOutlet / EventDateWatch / Listen [button]View all  [button → Full Archive page]Design note: Media embed cards with play buttons. Mix of video and audio.
+----CELL----
+
+========ROW========
+Using these resources
+----CELL----
+Heading (H2):Using and referencing these resourcesJournalists, educators, and facilitators are welcome to reference, assign, or discuss these resources in their own contexts. Where possible, links point to primary sources.For media inquiries, contact information is available below.
+----CELL----
+
+========ROW========
+Full archive
+----CELL----
+Heading (H2):Full ArchiveFor a complete record, this section provides a chronological archive of all articles, interviews, and talks spanning multiple years and contexts.Searchable/filterable table or card-list drawn from full ~1,000-item inventory.Filter by:Media TypeTopicOutletYearView Full Archive [button]Design note: This is where the full media inventory lives. Table or card-list with filters. Pagination or infinite scroll.
+----CELL----
+
+========ROW========
+Footer (global)
+----CELL----
+[same as Home]
+----CELL----
+
+========ROW========

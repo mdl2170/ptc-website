@@ -34,7 +34,7 @@
   <div class="pb-inner">
     <div>
       <div class="pb-eyebrow"><span class="bar"></span> Media</div>
-      <h1>Conversations, podcasts, &amp; <em>television.</em></h1>
+      <h1>News &amp; <em>interviews.</em></h1>
     </div>
     <div class="pb-deck">
       Selected interviews and appearances. For press inquiries, interview requests, or expert commentary on a current event, contact the office below — Peter typically responds within 48 hours.
@@ -85,83 +85,110 @@
         <div class="label"><span class="bar"></span> Archive</div>
         <h2>A working list of <em>appearances.</em></h2>
       </div>
-      <p>The full archive runs back to 2008. Most recent entries first. Filter by outlet on request — or contact the office for a curated reel for booking.</p>
+      <p>The full archive runs back to 2008. Most recent entries first. Search by keyword or filter by media type, topic, outlet, and year.</p>
     </div>
 
-    <ul class="appear-list">
-      <li><a class="appear-row" href="#">
+    <div class="archive-controls" role="search">
+      <div class="ac-search">
+        <svg class="ac-search-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5.25" stroke="currentColor" stroke-width="1.25"/><path d="M11 11l3 3" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"/></svg>
+        <input type="search" id="ac-q" placeholder="Search appearances by title, outlet, or keyword…" aria-label="Search appearances" />
+      </div>
+      <div class="ac-filters">
+        <label class="ac-filter">
+          <span>Type</span>
+          <select id="ac-type"><option value="">All types</option></select>
+        </label>
+        <label class="ac-filter">
+          <span>Topic</span>
+          <select id="ac-topic"><option value="">All topics</option></select>
+        </label>
+        <label class="ac-filter">
+          <span>Outlet</span>
+          <select id="ac-outlet"><option value="">All outlets</option></select>
+        </label>
+        <label class="ac-filter">
+          <span>Year</span>
+          <select id="ac-year"><option value="">All years</option></select>
+        </label>
+        <button type="button" class="ac-clear" id="ac-clear">Clear</button>
+      </div>
+      <div class="ac-status" id="ac-status" aria-live="polite"></div>
+    </div>
+
+    <ul class="appear-list" id="appear-list">
+      <li data-type="Radio" data-outlet="NPR" data-year="2026" data-topic="AI"><a class="appear-row" href="#">
         <div class="ar-date">Apr 19, 2026</div>
         <div class="ar-outlet">NPR · Morning Edition</div>
         <div class="ar-title">A new edition of <em>The Way Out</em> takes on AI and disagreement</div>
         <div class="ar-type">Radio · interview</div>
       </a></li>
-      <li><a class="appear-row" href="#">
+      <li data-type="Podcast" data-outlet="The Atlantic" data-year="2026" data-topic="Relationships"><a class="appear-row" href="#">
         <div class="ar-date">Mar 28, 2026</div>
         <div class="ar-outlet">The Atlantic · audio</div>
         <div class="ar-title">Why your group chat went off the rails — a conflict scientist explains</div>
         <div class="ar-type">Podcast · 38 min</div>
       </a></li>
-      <li><a class="appear-row" href="#">
+      <li data-type="Television" data-outlet="CNN" data-year="2026" data-topic="Polarization"><a class="appear-row" href="#">
         <div class="ar-date">Feb 11, 2026</div>
         <div class="ar-outlet">CNN · Anderson Cooper</div>
         <div class="ar-title">After the election: what comes next for a polarized country</div>
         <div class="ar-type">Television · panel</div>
       </a></li>
-      <li><a class="appear-row" href="#">
+      <li data-type="Podcast" data-outlet="The Ezra Klein Show" data-year="2026" data-topic="Polarization"><a class="appear-row" href="#">
         <div class="ar-date">Jan 22, 2026</div>
         <div class="ar-outlet">The Ezra Klein Show</div>
         <div class="ar-title">The <em>5%</em> — and what to do about it</div>
         <div class="ar-type">Podcast · 78 min</div>
       </a></li>
-      <li><a class="appear-row" href="#">
+      <li data-type="Radio" data-outlet="BBC World Service" data-year="2025" data-topic="Global"><a class="appear-row" href="#">
         <div class="ar-date">Dec 04, 2025</div>
         <div class="ar-outlet">BBC World Service</div>
         <div class="ar-title">A global look at conflict, fifteen years on from the Arab Spring</div>
         <div class="ar-type">Radio · interview</div>
       </a></li>
-      <li><a class="appear-row" href="#">
+      <li data-type="Podcast" data-outlet="Hidden Brain" data-year="2025" data-topic="Behavior"><a class="appear-row" href="#">
         <div class="ar-date">Nov 18, 2025</div>
         <div class="ar-outlet">Hidden Brain</div>
         <div class="ar-title">The pull of the past — why we cling to old conflicts</div>
         <div class="ar-type">Podcast · 52 min</div>
       </a></li>
-      <li><a class="appear-row" href="#">
+      <li data-type="Television" data-outlet="PBS NewsHour" data-year="2025" data-topic="Polarization"><a class="appear-row" href="#">
         <div class="ar-date">Oct 09, 2025</div>
         <div class="ar-outlet">PBS NewsHour</div>
         <div class="ar-title">Bridging the divide — a conversation on civic conflict</div>
         <div class="ar-type">Television · 12 min</div>
       </a></li>
-      <li><a class="appear-row" href="#">
+      <li data-type="Podcast" data-outlet="Freakonomics Radio" data-year="2025" data-topic="Conflict"><a class="appear-row" href="#">
         <div class="ar-date">Sep 21, 2025</div>
         <div class="ar-outlet">Freakonomics Radio</div>
         <div class="ar-title">Is there such a thing as <em>good</em> conflict?</div>
         <div class="ar-type">Podcast · 65 min</div>
       </a></li>
-      <li><a class="appear-row" href="#">
+      <li data-type="Podcast" data-outlet="The New York Times" data-year="2025" data-topic="Behavior"><a class="appear-row" href="#">
         <div class="ar-date">Aug 03, 2025</div>
         <div class="ar-outlet">The New York Times · The Daily</div>
         <div class="ar-title">A scientist of disagreement on what summer reveals about us</div>
         <div class="ar-type">Podcast · 26 min</div>
       </a></li>
-      <li><a class="appear-row" href="#">
+      <li data-type="Television" data-outlet="MSNBC" data-year="2025" data-topic="Polarization"><a class="appear-row" href="#">
         <div class="ar-date">Jun 14, 2025</div>
         <div class="ar-outlet">MSNBC</div>
         <div class="ar-title">A working theory of American polarization</div>
         <div class="ar-type">Television · 9 min</div>
       </a></li>
-      <li><a class="appear-row" href="#">
+      <li data-type="Podcast" data-outlet="On Being" data-year="2025" data-topic="Conflict"><a class="appear-row" href="#">
         <div class="ar-date">May 02, 2025</div>
         <div class="ar-outlet">On Being with Krista Tippett</div>
         <div class="ar-title">The patience of a conflict scientist</div>
         <div class="ar-type">Podcast · 71 min</div>
       </a></li>
-      <li><a class="appear-row" href="#">
+      <li data-type="Print" data-outlet="Wall Street Journal" data-year="2025" data-topic="Relationships"><a class="appear-row" href="#">
         <div class="ar-date">Apr 11, 2025</div>
         <div class="ar-outlet">Wall Street Journal</div>
         <div class="ar-title">A scholar's case for arguing better — at home, at work, in public</div>
         <div class="ar-type">Print · feature</div>
       </a></li>
-      <li><a class="appear-row" href="#">
+      <li data-type="Podcast" data-outlet="The Daily Show" data-year="2025" data-topic="Relationships"><a class="appear-row" href="#">
         <div class="ar-date">Feb 27, 2025</div>
         <div class="ar-outlet">The Daily Show</div>
         <div class="ar-title">How to talk politics — without ending the relationship</div>
@@ -169,9 +196,15 @@
       </a></li>
     </ul>
 
-    <div class="view-all">
-      <a href="#" class="text-link">View the full media archive <span aria-hidden="true">→</span></a>
-    </div>
+    <nav class="ac-pagination" id="ac-pagination" aria-label="Archive pagination">
+      <button type="button" class="ac-pg-btn" id="ac-prev" aria-label="Previous page">
+        <span aria-hidden="true">←</span> Prev
+      </button>
+      <ol class="ac-pg-pages" id="ac-pages"></ol>
+      <button type="button" class="ac-pg-btn" id="ac-next" aria-label="Next page">
+        Next <span aria-hidden="true">→</span>
+      </button>
+    </nav>
   </div>
 </section>
 
@@ -389,6 +422,97 @@
       form.style.display = 'none';
       thanks.classList.add('visible');
     });
+  })();
+</script>
+<script>
+  (function() {
+    const list = document.getElementById('appear-list');
+    if (!list) return;
+    const items = Array.from(list.querySelectorAll('li[data-type]'));
+    const q = document.getElementById('ac-q');
+    const selType = document.getElementById('ac-type');
+    const selTopic = document.getElementById('ac-topic');
+    const selOutlet = document.getElementById('ac-outlet');
+    const selYear = document.getElementById('ac-year');
+    const clearBtn = document.getElementById('ac-clear');
+    const status = document.getElementById('ac-status');
+    const prevBtn = document.getElementById('ac-prev');
+    const nextBtn = document.getElementById('ac-next');
+    const pagesEl = document.getElementById('ac-pages');
+    const pagination = document.getElementById('ac-pagination');
+    const PER_PAGE = 6;
+    let page = 1;
+
+    function uniq(key) {
+      return [...new Set(items.map(li => li.dataset[key]))].filter(Boolean);
+    }
+    function fill(sel, values, labelAll) {
+      values.sort((a, b) => key === 'year' ? b - a : a.localeCompare(b));
+      values.forEach(v => {
+        const opt = document.createElement('option');
+        opt.value = v; opt.textContent = v;
+        sel.appendChild(opt);
+      });
+    }
+    [['type', selType], ['topic', selTopic], ['outlet', selOutlet], ['year', selYear]].forEach(([key, sel]) => {
+      const vals = [...new Set(items.map(li => li.dataset[key]))].filter(Boolean);
+      vals.sort((a, b) => key === 'year' ? b.localeCompare(a) : a.localeCompare(b));
+      vals.forEach(v => {
+        const opt = document.createElement('option');
+        opt.value = v; opt.textContent = v;
+        sel.appendChild(opt);
+      });
+    });
+
+    function apply() {
+      const term = (q.value || '').trim().toLowerCase();
+      const t = selType.value, tp = selTopic.value, o = selOutlet.value, y = selYear.value;
+      const matched = [];
+      items.forEach(li => {
+        const text = li.textContent.toLowerCase();
+        const ok =
+          (!term || text.includes(term)) &&
+          (!t || li.dataset.type === t) &&
+          (!tp || li.dataset.topic === tp) &&
+          (!o || li.dataset.outlet === o) &&
+          (!y || li.dataset.year === y);
+        li.dataset.matched = ok ? '1' : '0';
+        if (ok) matched.push(li);
+      });
+      const total = items.length;
+      const visible = matched.length;
+      const totalPages = Math.max(1, Math.ceil(visible / PER_PAGE));
+      if (page > totalPages) page = totalPages;
+      if (page < 1) page = 1;
+      const startIdx = (page - 1) * PER_PAGE;
+      const endIdx = startIdx + PER_PAGE;
+      items.forEach(li => li.classList.add('is-hidden'));
+      matched.slice(startIdx, endIdx).forEach(li => li.classList.remove('is-hidden'));
+
+      if (visible === total && !term && !t && !tp && !o && !y) {
+        status.textContent = visible > PER_PAGE ? `Showing ${startIdx + 1}–${Math.min(endIdx, visible)} of ${total} appearances.` : '';
+      } else if (visible === 0) {
+        status.textContent = 'No appearances match the current filters.';
+      } else {
+        status.textContent = `Showing ${startIdx + 1}–${Math.min(endIdx, visible)} of ${visible} matching appearances.`;
+      }
+
+      pagesEl.innerHTML = '';
+      for (let i = 1; i <= totalPages; i++) {
+        const li = document.createElement('li');
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.textContent = i;
+        btn.className = 'ac-pg-num' + (i === page ? ' is-current' : '');
+        if (i === page) btn.setAttribute('aria-current', 'page');
+        btn.addEventListener('click', () => { page = i; apply(); });
+        li.appendChild(btn);
+        pagesEl.appendChild(li);
+      }
+      prevBtn.disabled = page <= 1;
+      nextBtn.disabled = page >= totalPages;
+      pagination.style.display = visible === 0 ? 'none' : '';
+    }
   })();
 </script>
 </body>
