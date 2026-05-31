@@ -277,110 +277,30 @@
   <div class="writing-inner">
     <div class="writing-head">
       <h2>Selected writing — <em>essays, op-eds, journal articles.</em></h2>
-      <div class="writing-filters">
-        <button class="active" data-filter="all">All</button>
-        <button data-filter="essay">Essays</button>
-        <button data-filter="oped">Op-Eds</button>
-        <button data-filter="academic">Academic</button>
-      </div>
     </div>
 
-    <ul class="writing-list">
-      <li><a class="writing-row" data-cat="essay" href="#">
-        <div class="wr-date">Apr 09, 2026</div>
-        <div class="wr-cat">Essay</div>
-        <div class="wr-title">When the algorithm is the third party: AI as a participant in human conflict<span class="outlet">Aeon · long-form essay</span></div>
-        <div class="wr-arrow">→</div>
-      </a></li>
-      <li><a class="writing-row" data-cat="oped" href="#">
-        <div class="wr-date">Mar 21, 2026</div>
-        <div class="wr-cat">Op-Ed</div>
-        <div class="wr-title">America doesn't need a healing — it needs a re-organization<span class="outlet">The New York Times · Opinion</span></div>
-        <div class="wr-arrow">→</div>
-      </a></li>
-      <li><a class="writing-row" data-cat="academic" href="#">
-        <div class="wr-date">Feb 2026</div>
-        <div class="wr-cat">Journal</div>
-        <div class="wr-title">Polarization as a dynamical system: re-framing the 5% problem in the AI era<span class="outlet">Negotiation &amp; Conflict Management Research, 19(1)</span></div>
-        <div class="wr-arrow">→</div>
-      </a></li>
-      <li><a class="writing-row" data-cat="essay" href="#">
-        <div class="wr-date">Jan 14, 2026</div>
-        <div class="wr-cat">Essay</div>
-        <div class="wr-title">Notes on a difficult winter: what mediators learn when nothing works<span class="outlet">The Atlantic · The Idea Letter</span></div>
-        <div class="wr-arrow">→</div>
-      </a></li>
-      <li><a class="writing-row" data-cat="oped" href="#">
-        <div class="wr-date">Nov 02, 2025</div>
-        <div class="wr-cat">Op-Ed</div>
-        <div class="wr-title">A small, useful idea for the holidays: argue better with your family<span class="outlet">USA Today · Opinion</span></div>
-        <div class="wr-arrow">→</div>
-      </a></li>
-      <li><a class="writing-row" data-cat="academic" href="#">
-        <div class="wr-date">Oct 2025</div>
-        <div class="wr-cat">Journal</div>
-        <div class="wr-title">Sustaining peace as an emergent property: evidence from 86 post-conflict societies<span class="outlet">Journal of Peace Research, 62(5) · with Fisher &amp; Vallacher</span></div>
-        <div class="wr-arrow">→</div>
-      </a></li>
-      <li><a class="writing-row" data-cat="essay" href="#">
-        <div class="wr-date">Sep 18, 2025</div>
-        <div class="wr-cat">Essay</div>
-        <div class="wr-title">The contempt economy — how outrage became a business model<span class="outlet">Noēma Magazine</span></div>
-        <div class="wr-arrow">→</div>
-      </a></li>
-      <li><a class="writing-row" data-cat="oped" href="#">
-        <div class="wr-date">Jul 04, 2025</div>
-        <div class="wr-cat">Op-Ed</div>
-        <div class="wr-title">A founding idea worth rescuing: that disagreement is the price of a republic<span class="outlet">The Washington Post · Opinion</span></div>
-        <div class="wr-arrow">→</div>
-      </a></li>
-      <li><a class="writing-row" data-cat="academic" href="#">
-        <div class="wr-date">Jun 2025</div>
-        <div class="wr-cat">Journal</div>
-        <div class="wr-title">Workplace conflict and the limits of mediation: a meta-analysis of 412 studies<span class="outlet">Annual Review of Organizational Psychology, 12 · with Lee &amp; Marcus</span></div>
-        <div class="wr-arrow">→</div>
-      </a></li>
-      <li><a class="writing-row" data-cat="essay" href="#">
-        <div class="wr-date">May 03, 2025</div>
-        <div class="wr-cat">Essay</div>
-        <div class="wr-title">What I learned from forty mediators who failed<span class="outlet">Psyche · IDEAS</span></div>
-        <div class="wr-arrow">→</div>
-      </a></li>
-      <li><a class="writing-row" data-cat="oped" href="#">
-        <div class="wr-date">Mar 12, 2025</div>
-        <div class="wr-cat">Op-Ed</div>
-        <div class="wr-title">Why conflict resolution can no longer ignore the platforms<span class="outlet">Time Magazine · Ideas</span></div>
-        <div class="wr-arrow">→</div>
-      </a></li>
-      <li><a class="writing-row" data-cat="academic" href="#">
-        <div class="wr-date">Feb 2025</div>
-        <div class="wr-cat">Chapter</div>
-        <div class="wr-title">Attractor dynamics in protracted conflict<span class="outlet">in <em>The Oxford Handbook of Peace &amp; Conflict</em>, ch. 7</span></div>
-        <div class="wr-arrow">→</div>
-      </a></li>
+    <ul class="writing-list is-loading" id="writing-list" aria-busy="true">
+      <!-- Opinion Published rows from Google Sheet tab "Full Archive" via js/writing-from-sheet.js -->
     </ul>
 
+    <p class="writing-pg-status" id="writing-pg-status" aria-live="polite"></p>
+
+    <nav class="ac-pagination" id="writing-pagination" aria-label="Selected writing pagination" hidden>
+      <button type="button" class="ac-pg-btn" id="writing-prev" aria-label="Previous page">
+        <span aria-hidden="true">←</span> Prev
+      </button>
+      <ol class="ac-pg-pages" id="writing-pages"></ol>
+      <button type="button" class="ac-pg-btn" id="writing-next" aria-label="Next page">
+        Next <span aria-hidden="true">→</span>
+      </button>
+    </nav>
+
     <div class="view-all">
-      <a href="#" class="text-link">Browse the full archive <span aria-hidden="true">→</span></a>
+      <a href="Media.html#full-archive" class="text-link">Browse the full archive <span aria-hidden="true">→</span></a>
     </div>
   </div>
 </section>
 
-<script>
-(function(){
-  const buttons = document.querySelectorAll('.writing-filters button');
-  const rows = document.querySelectorAll('.writing-list .writing-row');
-  buttons.forEach(b => b.addEventListener('click', () => {
-    buttons.forEach(x => x.classList.remove('active'));
-    b.classList.add('active');
-    const f = b.dataset.filter;
-    rows.forEach(r => {
-      const li = r.parentElement;
-      li.style.display = (f === 'all' || r.dataset.cat === f) ? '' : 'none';
-    });
-  }));
-})();
-</script>
 
 <footer id="footer">
   <div class="footer-inner">
@@ -456,7 +376,7 @@
           <a href="#" aria-label="Medium" title="Medium">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 0 1-6.77 6.82A6.8 6.8 0 0 1 0 12a6.8 6.8 0 0 1 6.77-6.82A6.8 6.8 0 0 1 13.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
           </a>
-          <a href="#" aria-label="Google Scholar" title="Google Scholar">
+          <a href="https://scholar.google.com/citations?user=vtAunVIAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0L0 9.5l4.838 3.94v.005L12 19.276l7.162-5.83v-.006L24 9.5 12 0zm-7.165 13.99v.001L12 19.726l-.038.03L4.835 13.99zM12 24a6 6 0 0 1-6-6c0-.21.011-.418.032-.624L12 22.276l5.968-4.9c.021.206.032.414.032.624a6 6 0 0 1-6 6z"/></svg>
           </a>
         </div>
@@ -588,5 +508,8 @@
     });
   })();
 </script>
+<script src="js/updates-config.js"></script>
+<script src="js/sheet-shared.js"></script>
+<script src="js/writing-from-sheet.js"></script>
 </body>
 </html>

@@ -55,44 +55,25 @@
 <section class="updates-section">
   <div class="updates-inner">
     <div class="updates-head">
-      <div class="label"><span class="bar"></span> Latest Updates <span class="bar"></span></div>
+      <div class="label"><span class="bar"></span> Latest Updates</div>
       <h2>What Peter is <em>publishing, posting,</em> and showing up for.</h2>
-      <a href="#" class="all-link">View archive <span aria-hidden="true">→</span></a>
     </div>
 
-    <div class="updates-grid">
-      <a href="#" class="update-featured">
-        <div class="u-thumb">
-          <span class="u-flag">Featured</span>
-          <img src="assets/the-way-out-cover.png" alt="The Way Out, 2nd Edition" onerror="this.style.display='none'" />
+    <div class="updates-carousel" id="updatesCarousel" aria-roledescription="carousel" aria-label="Latest updates">
+      <div class="uc-track is-loading" id="ucTrack" aria-live="polite">
+        <!-- Slides loaded from Google Sheet via js/updates-from-sheet.js -->
+      </div>
+
+      <div class="uc-footer">
+        <div class="uc-nav">
+          <button class="uc-arrow uc-prev" type="button" aria-label="Previous update">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+          </button>
+          <div class="uc-dots" id="ucDots" role="tablist" aria-label="Choose an update"></div>
+          <button class="uc-arrow uc-next" type="button" aria-label="Next update">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+          </button>
         </div>
-      </a>
-
-      <div class="updates-right">
-        <a href="#" class="feature-text">
-          <div class="u-date">Apr 22, 2026</div>
-          <h3 class="u-title">The Way Out, <em>2nd Edition</em> — new preface and three new chapters on AI &amp; conflict.</h3>
-          <p class="u-blurb">Columbia University Press releases an updated edition of Peter's award-winning book on toxic polarization, with new research on how machine-mediated discourse is reshaping the way we disagree.</p>
-          <span class="u-cta">Read the announcement <span aria-hidden="true">→</span></span>
-        </a>
-
-        <ul class="updates-list">
-          <li><a class="update-item" href="#">
-            <div class="u-date">Apr 18, 2026</div>
-            <div class="u-title">Keynote — <em>Constructive Conflict in Polarized Workplaces</em> at SHRM Annual.</div>
-            <span class="u-arrow" aria-hidden="true">→</span>
-          </a></li>
-          <li><a class="update-item" href="#">
-            <div class="u-date">Apr 11, 2026</div>
-            <div class="u-title">On the science of de-escalation in an election year — The Ezra Klein Show.</div>
-            <span class="u-arrow" aria-hidden="true">→</span>
-          </a></li>
-          <li><a class="update-item" href="#">
-            <div class="u-date">Apr 03, 2026</div>
-            <div class="u-title">The 5% Rule: <em>why most conflicts solve themselves</em> — Harvard Business Review.</div>
-            <span class="u-arrow" aria-hidden="true">→</span>
-          </a></li>
-        </ul>
       </div>
     </div>
   </div>
@@ -112,7 +93,7 @@
       <div>
         <h3>Intractable Conflict</h3>
         <p>Why some conflicts resist every attempt at resolution, and what complexity science reveals about breaking free.</p>
-        <a href="#" class="more">Learn more <span class="arr">→</span></a>
+        <a href="Research.html" class="more">Learn more <span class="arr">→</span></a>
       </div>
     </article>
     <article class="work-card">
@@ -120,7 +101,7 @@
       <div>
         <h3>Toxic Polarization</h3>
         <p>Evidence-based strategies for how deeply divided societies can — and do — find the way out.</p>
-        <a href="#" class="more">Learn more <span class="arr">→</span></a>
+        <a href="Research.html" class="more">Learn more <span class="arr">→</span></a>
       </div>
     </article>
     <article class="work-card">
@@ -128,7 +109,7 @@
       <div>
         <h3>Conflict Intelligence</h3>
         <p>An adaptive, context-sensitive framework for navigating disagreement at every level.</p>
-        <a href="#" class="more">Learn more <span class="arr">→</span></a>
+        <a href="Research.html" class="more">Learn more <span class="arr">→</span></a>
       </div>
     </article>
     <article class="work-card">
@@ -136,7 +117,7 @@
       <div>
         <h3>Sustainable Peace</h3>
         <p>What the world's most peaceful societies can teach us about building lasting peace.</p>
-        <a href="#" class="more">Learn more <span class="arr">→</span></a>
+        <a href="Research.html" class="more">Learn more <span class="arr">→</span></a>
       </div>
     </article>
   </div>
@@ -235,8 +216,8 @@
       <img src="assets/the-way-out-cover.png" alt="The Way Out: How to Overcome Toxic Polarization — Updated Edition, by Peter T. Coleman" />
     </div>
     <div class="book-info">
-      <h2 class="display">A research-based guide to escape the pull of <em>toxic polarization.</em></h2>
-      <p class="desc">A groundbreaking book drawing on over 25 years of research to show how we can find a way out — for our relationships, our communities, and our democracies.</p>
+      <h2 class="display">The Way Out: How to Overcome <em>Toxic Polarization</em></h2>
+      <p class="desc">A groundbreaking, research-based guide that draws on over 25 years of research to show how we can escape the pull of toxic polarization.</p>
       <div class="pub">Columbia University Press · 2nd Edition · August 11, 2026</div>
       <div class="book-ctas">
         <a href="https://thewayoutofpolarization.com/" target="_blank" rel="noopener" class="btn-solid">Buy the book <span aria-hidden="true">→</span></a>
@@ -332,7 +313,7 @@
       <div class="label">— About Peter</div>
       <h2 class="display">Bridging <em>science and practice</em> for over thirty years.</h2>
       <p class="quote">I came to believe in the extraordinary power of big ideas to better our world, and in the critical roles science and technology can play in refining and advancing those ideas.</p>
-      <a href="#" class="text-link">Meet Peter <span aria-hidden="true">→</span></a>
+      <a href="About.html" class="text-link">Meet Peter <span aria-hidden="true">→</span></a>
     </div>
   </div>
 </section>
@@ -344,29 +325,12 @@
     <h2 class="display">Recent writing, talks <em>&amp; conversations.</em></h2>
   </div>
 
-  <div class="media-grid">
-    <article class="media-card">
-      <div class="media-thumb"><div class="play">▶</div></div>
-      <div class="meta"><span class="outlet">Hidden Brain</span><span>· 2/13/2024</span></div>
-      <h3>US 2.0: Living With Our Differences</h3>
-      <a href="#" class="read">Listen here <span aria-hidden="true">▷</span></a>
-    </article>
-    <article class="media-card">
-      <div class="media-thumb"><div class="play">▶</div></div>
-      <div class="meta"><span class="outlet">Chasing Life</span><span>· 1/11/2024</span></div>
-      <h3>How to have difficult conversations in a polarized world</h3>
-      <a href="#" class="read">Listen here <span aria-hidden="true">▷</span></a>
-    </article>
-    <article class="media-card">
-      <div class="media-thumb"><div class="play">▶</div></div>
-      <div class="meta"><span class="outlet">PBS NewsHour</span><span>· 1/10/2022</span></div>
-      <h3>Political polarization prompts efforts to bridge the gap through shared experiences</h3>
-      <a href="#" class="read">Watch here <span aria-hidden="true">▷</span></a>
-    </article>
+  <div class="media-grid is-loading" id="mediaGrid">
+    <!-- Cards loaded from Google Sheet tab "Homepage Media" via js/media-from-sheet.js -->
   </div>
 
   <div class="view-all">
-    <a href="#" class="btn-solid">View all media <span aria-hidden="true">→</span></a>
+    <a href="Media.html" class="btn-solid">View all media <span aria-hidden="true">→</span></a>
   </div>
 </section>
 
@@ -445,7 +409,7 @@
           <a href="#" aria-label="Medium" title="Medium">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 0 1-6.77 6.82A6.8 6.8 0 0 1 0 12a6.8 6.8 0 0 1 6.77-6.82A6.8 6.8 0 0 1 13.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
           </a>
-          <a href="#" aria-label="Google Scholar" title="Google Scholar">
+          <a href="https://scholar.google.com/citations?user=vtAunVIAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0L0 9.5l4.838 3.94v.005L12 19.276l7.162-5.83v-.006L24 9.5 12 0zm-7.165 13.99v.001L12 19.726l-.038.03L4.835 13.99zM12 24a6 6 0 0 1-6-6c0-.21.011-.418.032-.624L12 22.276l5.968-4.9c.021.206.032.414.032.624a6 6 0 0 1-6 6z"/></svg>
           </a>
         </div>
@@ -459,6 +423,10 @@
   </div>
 </footer>
 
+<script src="js/updates-config.js"></script>
+<script src="js/sheet-shared.js"></script>
+<script src="js/updates-from-sheet.js"></script>
+<script src="js/media-from-sheet.js"></script>
 <script>
   // Header gets background once user scrolls past hero
   const header = document.getElementById('siteHeader');
