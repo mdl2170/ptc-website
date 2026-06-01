@@ -1,6 +1,17 @@
 (function () {
   const FALLBACK_UPDATES = [
     {
+      headline:
+        'Conflict-intelligent leadership in a messy, anxious world — *Frontiers in Organizational Psychology*',
+      date: 'May 28, 2026',
+      description:
+        'New peer-reviewed research develops and validates the Conflict Intelligent Leadership Scale (CIQ-L)—a multidimensional measure of how leaders navigate conflict in turbulent workplaces.',
+      link: 'https://www.frontiersin.org/journals/organizational-psychology/articles/10.3389/forgp.2026.1777594/full',
+      image:
+        'https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/65AE6C8E-0D4D-4D34-84166B5E78AE2FEF/WebsiteWebP_XL-FORGP_Main%20Visual_Orange.webp',
+      image_alt: 'Frontiers in Organizational Psychology — conflict-intelligent leadership',
+    },
+    {
       headline: 'The Way Out: Updated Edition Released in August 2026',
       date: 'August 2026',
       description:

@@ -14,6 +14,11 @@
  *   ID | Title | Link | Image URL | Outlet | Media Type | Audience | Topic(s) | Featured
  *   (Year is parsed from the title or link URL; date shown when the link includes /YYYY/MM/DD/.)
  *
+ * Tab "Watch and Listen" columns (Speaking page playlist):
+ *   active | sort_order | youtube_id | start_seconds | source | kind | duration | title | description | image | image_alt
+ *   youtube_id = 11-character ID from the YouTube URL. start_seconds = optional (e.g. 17 for &t=17s). Leave image blank for YouTube thumbnail.
+ *   Import template: data/watch-listen-import.csv
+ *
  * Use *asterisks* in text fields for italics. For dates, Plain text works best for ranges.
  */
 window.PTC_UPDATES = {
