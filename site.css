@@ -1,8 +1,8 @@
 
   :root {
     --ink: #14181f;
-    --ink-soft: #262b33;
-    --ink-mute: #6a7180;
+    --ink-soft: #21262d;
+    --ink-mute: #4f5663;
     --paper: #eef0f3;     /* primary cool-gray background */
     --paper-2: #e3e6eb;   /* slightly deeper for footer / strips */
     --paper-3: #d3d7de;   /* card edges */
@@ -56,7 +56,7 @@
   }
   nav.primary a:hover, nav.primary a.active { opacity: 1; border-bottom-color: currentColor; }
   .socials { display: flex; gap: 14px; align-items: center; opacity: 0.85; }
-  .socials a { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
+  .socials a { font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; }
   .socials a:hover { opacity: 1; }
 
   /* When header is on a paper background (sticky after scroll), invert */
@@ -110,7 +110,7 @@
     padding-bottom: 88px;
   }
   .hero-eyebrow {
-    font-size: 12px; letter-spacing: 0.3em; text-transform: uppercase;
+    font-size: 13px; letter-spacing: 0.3em; text-transform: uppercase;
     margin-bottom: 28px; opacity: 0.85;
     display: flex; align-items: center; gap: 14px;
   }
@@ -138,7 +138,7 @@
   }
   .hero-cta {
     display: inline-flex; align-items: center; gap: 14px;
-    font-size: 12px; letter-spacing: 0.24em; text-transform: uppercase;
+    font-size: 13px; letter-spacing: 0.24em; text-transform: uppercase;
     padding: 16px 0; border-bottom: 1px solid var(--cream);
     align-self: flex-end;
     transition: gap 0.25s;
@@ -160,7 +160,7 @@
     flex-wrap: wrap;
   }
   .hero-affil .label {
-    font-size: 11px; letter-spacing: 0.32em; text-transform: uppercase;
+    font-size: 12px; letter-spacing: 0.32em; text-transform: uppercase;
     color: rgba(246,247,249,0.7);
     font-style: italic;
     font-family: 'Lora', serif;
@@ -202,11 +202,11 @@
     content: 'EDITORIAL · CONFERENCE / FIELD PHOTO';
     position: absolute; inset: 0;
     display: flex; align-items: center; justify-content: center;
-    font-size: 11px; letter-spacing: 0.24em; color: rgba(250, 246, 237, 0.35);
+    font-size: 12px; letter-spacing: 0.24em; color: rgba(250, 246, 237, 0.35);
     text-transform: uppercase;
   }
   .fs-content .label {
-    font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase;
+    font-size: 13px; letter-spacing: 0.28em; text-transform: uppercase;
     opacity: 0.65; margin-bottom: 28px;
   }
   .fs-content h2 {
@@ -226,12 +226,12 @@
     text-wrap: pretty;
   }
   .fs-content .meta {
-    font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase;
+    font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase;
     opacity: 0.65; margin-bottom: 12px;
   }
   .text-link {
     display: inline-flex; align-items: center; gap: 10px;
-    font-size: 12px; letter-spacing: 0.24em; text-transform: uppercase;
+    font-size: 13px; letter-spacing: 0.24em; text-transform: uppercase;
     padding-bottom: 6px; border-bottom: 1px solid currentColor;
     transition: gap 0.25s;
   }
@@ -244,7 +244,7 @@
     max-width: 920px; margin: 0 auto;
   }
   .section-head .label {
-    font-size: 12px; letter-spacing: 0.32em; text-transform: uppercase;
+    font-size: 13px; letter-spacing: 0.32em; text-transform: uppercase;
     color: var(--ink-mute); margin-bottom: 22px;
     display: inline-flex; gap: 14px; align-items: center;
   }
@@ -309,7 +309,7 @@
     margin-bottom: 20px;
   }
   .work-card .more {
-    font-size: 12px; letter-spacing: 0.24em; text-transform: uppercase;
+    font-size: 13px; letter-spacing: 0.24em; text-transform: uppercase;
     display: inline-flex; align-items: center; gap: 10px;
     border-bottom: 1px solid var(--ink);
     padding-bottom: 4px;
@@ -330,7 +330,7 @@
     flex-wrap: wrap;
   }
   .strip .label {
-    font-size: 11px; letter-spacing: 0.32em; text-transform: uppercase;
+    font-size: 12px; letter-spacing: 0.32em; text-transform: uppercase;
     color: var(--ink-mute); flex-shrink: 0;
     font-style: italic;
     font-family: 'Lora', serif;
@@ -431,7 +431,7 @@
   .book-cover .bc-sub,
   .book-cover .bc-author { display: none; }
   .book-cover .bc-label {
-    font-size: 10px; letter-spacing: 0.32em; text-transform: uppercase;
+    font-size: 11px; letter-spacing: 0.32em; text-transform: uppercase;
     opacity: 0.65;
   }
   .book-cover .bc-title {
@@ -449,11 +449,11 @@
   }
   .book-cover .bc-author {
     margin-top: 32px;
-    font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase;
+    font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase;
     opacity: 0.85;
   }
   .book-info .label {
-    font-size: 12px; letter-spacing: 0.32em; text-transform: uppercase;
+    font-size: 13px; letter-spacing: 0.32em; text-transform: uppercase;
     color: var(--accent);
     margin-bottom: 20px;
   }
@@ -489,7 +489,7 @@
     display: inline-flex; align-items: center; gap: 12px;
     background: var(--ink); color: var(--cream);
     padding: 18px 30px;
-    font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase;
+    font-size: 13px; letter-spacing: 0.28em; text-transform: uppercase;
     transition: background 0.25s, gap 0.25s;
   }
   .btn-solid:hover { background: var(--accent); gap: 18px; }
@@ -508,7 +508,7 @@
     padding-bottom: 20px;
   }
   .updates-head .label {
-    font-size: 12px; letter-spacing: 0.32em; text-transform: uppercase;
+    font-size: 13px; letter-spacing: 0.32em; text-transform: uppercase;
     color: var(--ink-mute);
     display: inline-flex; gap: 14px; align-items: center;
   }
@@ -591,7 +591,7 @@
   .uc-body .u-date {
     font-family: 'Lora', serif;
     font-style: italic;
-    font-size: 13px;
+    font-size: 15px;
     color: var(--ink-mute);
     margin-bottom: 12px;
   }
@@ -604,7 +604,7 @@
     text-wrap: pretty;
   }
   .uc-body .u-cta {
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     display: inline-flex;
@@ -721,7 +721,7 @@
   }
   .init-row .tag {
     font-family: 'Lora', serif; font-style: italic;
-    font-size: 13px; color: var(--ink-mute);
+    font-size: 15px; color: var(--ink-mute);
     letter-spacing: 0.01em;
   }
   .init-row h3 {
@@ -773,7 +773,7 @@
   }
   .init-row .body p { margin: 0 0 14px; }
   .init-row .body p + .cta { margin-top: 4px;
-    font-size: 12px; letter-spacing: 0.24em; text-transform: uppercase;
+    font-size: 13px; letter-spacing: 0.24em; text-transform: uppercase;
     border-bottom: 1px solid var(--ink);
     padding-bottom: 4px;
     color: var(--ink);
@@ -807,7 +807,7 @@
   .init-preview .label-overlay {
     position: absolute; left: 24px; bottom: 24px;
     color: var(--cream);
-    font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase;
+    font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase;
     background: rgba(26,26,26,0.55);
     padding: 8px 14px;
     backdrop-filter: blur(4px);
@@ -881,7 +881,7 @@
   .media-card .meta {
     margin-top: 22px;
     display: flex; gap: 14px; align-items: center;
-    font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase;
+    font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase;
     color: var(--ink-mute);
   }
   .media-card .meta .outlet { color: var(--accent); }
@@ -895,7 +895,7 @@
   }
   .media-card .read {
     margin-top: 18px;
-    font-size: 12px; letter-spacing: 0.24em; text-transform: uppercase;
+    font-size: 13px; letter-spacing: 0.24em; text-transform: uppercase;
     display: inline-flex; align-items: center; gap: 10px;
     border-bottom: 1px solid var(--ink);
     padding-bottom: 4px;
@@ -974,7 +974,7 @@
   }
   .at-photo::after { content: none; }
   .at-content .label {
-    font-size: 12px; letter-spacing: 0.32em; text-transform: uppercase;
+    font-size: 13px; letter-spacing: 0.32em; text-transform: uppercase;
     opacity: 0.6; margin-bottom: 24px;
   }
   .at-content h2 {
@@ -1016,7 +1016,7 @@
   .footer-head .label {
     font-family: 'Lora', serif;
     font-style: italic;
-    font-size: 13px;
+    font-size: 14px;
     color: var(--ink-mute);
     margin-bottom: 10px;
     letter-spacing: 0.01em;
@@ -1057,7 +1057,7 @@
   .footer-body h4 {
     font-family: 'Lora', serif;
     font-style: italic;
-    font-size: 12px;
+    font-size: 13px;
     color: var(--ink-mute);
     margin-bottom: 12px;
     font-weight: 400;
@@ -1081,7 +1081,7 @@
     display: block;
     font-family: 'Lora', serif;
     font-style: italic;
-    font-size: 11px;
+    font-size: 12px;
     color: var(--ink-mute);
     letter-spacing: 0.04em;
     margin-bottom: 2px;
@@ -1103,7 +1103,7 @@
   .contact-form input::placeholder,
   .contact-form textarea::placeholder {
     color: var(--ink-mute);
-    opacity: 0.55;
+    opacity: 0.7;
   }
   .contact-form select {
     appearance: none;
@@ -1131,7 +1131,7 @@
   .contact-form .privacy {
     font-family: 'Lora', serif;
     font-style: italic;
-    font-size: 12px;
+    font-size: 13px;
     color: var(--ink-mute);
     max-width: 36ch;
   }
@@ -1140,7 +1140,7 @@
     color: var(--cream);
     border: 0;
     padding: 12px 22px;
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 0.26em;
     text-transform: uppercase;
     cursor: pointer;
@@ -1172,7 +1172,7 @@
   .footer-side address {
     font-style: normal;
     font-family: 'Lora', serif;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.6;
     color: var(--ink-soft);
   }
@@ -1182,7 +1182,7 @@
     flex-direction: column;
     gap: 4px;
     font-family: 'Lora', serif;
-    font-size: 14px;
+    font-size: 15px;
   }
   .footer-side .office-contact a {
     color: var(--ink);
@@ -1205,7 +1205,7 @@
     flex-wrap: wrap;
     gap: 8px;
     font-family: 'Lora', serif;
-    font-size: 13px;
+    font-size: 15px;
   }
   .footer-side .social-inline a {
     color: var(--ink-soft);
@@ -1231,7 +1231,7 @@
     padding-top: 18px;
     display: flex; justify-content: space-between; align-items: center;
     font-family: 'Lora', serif; font-style: italic;
-    font-size: 12px; color: var(--ink-mute);
+    font-size: 14px; color: var(--ink-mute);
   }
 
   @media (max-width: 1024px) {
