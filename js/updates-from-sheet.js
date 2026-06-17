@@ -90,10 +90,14 @@
     return (
       '<article class="uc-slide' +
       activeClass +
-      '">' +
+      '"' +
+      (index === 0 ? '' : ' aria-hidden="true"') +
+      '>' +
       '<a href="' +
       sheet.escapeHtml(update.link || '#') +
-      '" class="uc-slide-inner">' +
+      '" class="uc-slide-inner"' +
+      (index === 0 ? '' : ' tabindex="-1"') +
+      '>' +
       '<div class="uc-thumb">' +
       img +
       '</div>' +
@@ -116,9 +120,45 @@
     );
   }
 
+  function lockTrackHeight() {
+    const slides = Array.from(track.querySelectorAll('.uc-slide'));
+    if (!slides.length) return;
+
+    let max = 0;
+    slides.forEach(function (slide) {
+      const inner = slide.querySelector('.uc-slide-inner');
+      if (!inner) return;
+
+      const width = inner.getBoundingClientRect().width;
+      const measure = inner.cloneNode(true);
+      measure.style.position = 'absolute';
+      measure.style.visibility = 'hidden';
+      measure.style.pointerEvents = 'none';
+      measure.style.left = '-9999px';
+      measure.style.top = '0';
+      measure.style.width = (width || track.clientWidth) + 'px';
+      document.body.appendChild(measure);
+      max = Math.max(max, measure.offsetHeight);
+      document.body.removeChild(measure);
+    });
+
+    if (max) track.style.minHeight = max + 'px';
+  }
+
+  function watchSlideImages() {
+    track.querySelectorAll('img').forEach(function (img) {
+      if (img.complete) return;
+      img.addEventListener('load', lockTrackHeight, { once: true });
+    });
+  }
+
   function renderSlides(updates) {
     if (!updates.length) return;
     track.innerHTML = updates.map(renderSlide).join('');
+    lockTrackHeight();
+    watchSlideImages();
+    requestAnimationFrame(lockTrackHeight);
+    setTimeout(lockTrackHeight, 150);
     initCarousel();
   }
 
@@ -154,7 +194,11 @@
     function go(i) {
       active = (i + slides.length) % slides.length;
       slides.forEach(function (slide, k) {
-        slide.classList.toggle('is-active', k === active);
+        const on = k === active;
+        slide.classList.toggle('is-active', on);
+        slide.setAttribute('aria-hidden', on ? 'false' : 'true');
+        const link = slide.querySelector('a');
+        if (link) link.tabIndex = on ? 0 : -1;
       });
       dots.forEach(function (dot, k) {
         dot.classList.toggle('is-active', k === active);
@@ -235,6 +279,7 @@
 
     track.classList.remove('is-loading');
     renderSlides(updates);
+    window.addEventListener('resize', lockTrackHeight);
   }
 
   load();

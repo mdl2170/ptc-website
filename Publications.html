@@ -15,13 +15,19 @@
 <header class="site site--solid" id="siteHeader">
   <div class="site-inner">
     <a href="Home.html" class="brand-mark">Peter T. Coleman</a>
-    <nav class="primary">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+      <span class="nav-toggle-bar" aria-hidden="true"></span>
+      <span class="nav-toggle-bar" aria-hidden="true"></span>
+      <span class="nav-toggle-bar" aria-hidden="true"></span>
+    </button>
+    <nav class="primary" id="primaryNav">
       <a href="Home.html">home</a>
       <a href="About.html">about</a>
       <a href="Publications.html" class="active">publications</a>
       <a href="Research.html">research</a>
       <a href="Speaking.html">speaking</a>
       <a href="Media.html">media</a>
+      <a href="#footer" class="nav-contact">contact →</a>
     </nav>
     <div class="socials">
       <a href="#footer">contact →</a>
@@ -54,7 +60,7 @@
       <p class="desc">Drawing on three decades of conflict research, Coleman maps a path through the deepest political fractures of our time. The new edition adds a preface for the AI era and three chapters on how machine-mediated discourse is reshaping the way we disagree — and what to do about it.</p>
       <p class="pub">Columbia University Press · Hardcover, paperback, audiobook · Foreword by Maria Ressa</p>
       <div class="book-ctas">
-        <a href="https://thewayoutofpolarization.com/" target="_blank" rel="noopener" class="btn-solid">Buy the book <span aria-hidden="true">→</span></a>
+        <a href="https://www.amazon.com/Way-Out-Overcome-Toxic-Polarization/dp/0231197403" target="_blank" rel="noopener" class="btn-solid">Buy the book <span aria-hidden="true">→</span></a>
         <a href="https://thewayoutofpolarization.com/" target="_blank" rel="noopener" class="text-link">Visit the book site <span aria-hidden="true">↗</span></a>
       </div>
     </div>
@@ -640,16 +646,16 @@
           <a href="tel:+12126783402">(212) 678-3402</a>
         </div>
         <div class="social-inline">
-          <a href="#" aria-label="LinkedIn" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/peter-t-coleman-675b29224/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
           </a>
-          <a href="#" aria-label="X (Twitter)" title="X">
+          <a href="https://x.com/PeterTColeman1" target="_blank" rel="noopener" aria-label="X" title="X">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
           </a>
-          <a href="#" aria-label="Instagram" title="Instagram">
+          <a href="https://www.instagram.com/petercoleman3248/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.81.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.81-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.81-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.81.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.13 1.39C1.34 2.69.93 3.36.62 4.14.32 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.25 2.15.55 2.91.31.79.72 1.46 1.39 2.13.67.67 1.34 1.08 2.13 1.39.76.3 1.64.49 2.91.55C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.25 2.91-.55.79-.31 1.46-.72 2.13-1.39.67-.67 1.08-1.34 1.39-2.13.3-.76.49-1.64.55-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.25-2.15-.55-2.91-.31-.79-.72-1.46-1.39-2.13C21.31 1.34 20.64.93 19.86.62c-.76-.3-1.64-.49-2.91-.55C15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zm0 10.16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.41-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></svg>
           </a>
-          <a href="#" aria-label="Medium" title="Medium">
+          <a href="https://pc84.medium.com/" target="_blank" rel="noopener" aria-label="Medium" title="Medium">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 0 1-6.77 6.82A6.8 6.8 0 0 1 0 12a6.8 6.8 0 0 1 6.77-6.82A6.8 6.8 0 0 1 13.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
           </a>
           <a href="https://scholar.google.com/citations?user=vtAunVIAAAAJ&amp;hl=en" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
@@ -787,5 +793,6 @@
 <script src="js/updates-config.js"></script>
 <script src="js/sheet-shared.js"></script>
 <script src="js/writing-from-sheet.js"></script>
+<script src="js/site-nav.js"></script>
 </body>
 </html>

@@ -34,6 +34,7 @@ header.site.site--solid.scrolled {
   align-items: end;
   z-index: 1;
 }
+.pb-inner > div { min-width: 0; }
 .pb-eyebrow {
   font-size: 13px; letter-spacing: 0.32em; text-transform: uppercase;
   color: var(--accent);
@@ -44,10 +45,12 @@ header.site.site--solid.scrolled {
 .page-banner h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
-  font-size: clamp(48px, 7vw, 104px);
+  font-size: clamp(40px, 7vw, 104px);
   line-height: 0.98;
   letter-spacing: -0.015em;
   text-wrap: balance;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 .page-banner h1 em { font-style: italic; }
 .pb-deck {
@@ -60,6 +63,7 @@ header.site.site--solid.scrolled {
 }
 @media (max-width: 900px) {
   .pb-inner { grid-template-columns: 1fr; gap: 32px; }
+  .page-banner h1 { font-size: clamp(36px, 10vw, 56px); }
 }
 
 /* PROSE — long-form column for About & body sections */
@@ -1047,6 +1051,7 @@ header.site.site--solid.scrolled {
   padding: 56px 0;
   border-bottom: 1px solid var(--rule-soft);
   align-items: start;
+  scroll-margin-top: 96px;
 }
 .track-card .tk-num {
   font-family: 'Playfair Display', serif; font-style: italic;
@@ -1751,3 +1756,32 @@ header.site.site--solid.scrolled {
   .topic-modal__body { padding: 56px 28px 36px; }
 }
 body.modal-open { overflow: hidden; }
+
+@media (max-width: 1024px) {
+  .page-banner { padding: 72px 24px 80px; }
+  .prose-section,
+  .cv-section,
+  .stats-band,
+  .book-grid-section,
+  .writing-section,
+  .areas-section,
+  .quotes-section,
+  .talks-section,
+  .topics-section,
+  .episode-section,
+  .appear-section,
+  .cta-strip,
+  .tags-section,
+  .awards-section,
+  .tracks-section,
+  .labs-section,
+  .pubs-section,
+  .engagements-section,
+  .watch-section,
+  .profile-section {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .profile-text { padding: 48px 24px; }
+  .pb-inner { padding: 0; }
+}
