@@ -188,7 +188,7 @@
 
     <div class="footer-body">
       <div>
-        <form class="contact-form" id="contactForm" novalidate>
+        <form class="contact-form" id="contactForm" action="https://script.google.com/macros/s/AKfycbxz1l0pgWrwEA0FpzBofwwvYNjkBErbACBFPbdsjpVMrtedRyl_PLC24fJ6SnMeMgDS/exec" method="POST" novalidate>
           <div class="field">
             <label for="cf-name">Your name</label>
             <input type="text" id="cf-name" name="name" placeholder="Jane Doe" required />
@@ -370,16 +370,42 @@
     }, { threshold: 0.3 });
     startObs.observe(preview);
   })();
-  // Contact form — graceful confirmation (no backend wired)
+  // Contact form — sends submissions through Google Apps Script.
   (function() {
     const form = document.getElementById('contactForm');
     const thanks = document.getElementById('formThanks');
     if (!form) return;
-    form.addEventListener('submit', (e) => {
+
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
       if (!form.checkValidity()) { form.reportValidity(); return; }
-      form.style.display = 'none';
-      thanks.classList.add('visible');
+
+      const submitButton = form.querySelector('button[type="submit"]');
+      const originalText = submitButton ? submitButton.innerHTML : '';
+      if (submitButton) {
+        submitButton.disabled = true;
+        submitButton.innerHTML = 'Sending...';
+      }
+
+      const payload = new URLSearchParams(new FormData(form));
+      payload.append('sourcePage', window.location.href);
+
+      try {
+        await fetch(form.action, {
+          method: 'POST',
+          mode: 'no-cors',
+          body: payload
+        });
+        form.reset();
+        form.style.display = 'none';
+        thanks.classList.add('visible');
+      } catch (error) {
+        alert('Sorry, your message could not be sent. Please email icccr@tc.columbia.edu instead.');
+        if (submitButton) {
+          submitButton.disabled = false;
+          submitButton.innerHTML = originalText;
+        }
+      }
     });
   })();
 </script>
